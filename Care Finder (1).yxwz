@@ -1,0 +1,1710 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Physician_Compare_National_Downloadable_File.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Professional Enrollment ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Middle Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Suffix" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Credential" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Medical school name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Graduation year" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Primary specialty" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="All secondary specialties" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Organization legal name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Group Practice PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Number of Group Practice members" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 1 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 2 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Marker of address line 2 suppression" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 5" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 5" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Professional accepts Medicare Assignment" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Reported Quality Measures" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Used electronic health records" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Committed to heart health through the Million HeartsÂ® initiative." size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Identifier" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Title" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Inverse Measure" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Performance Rate" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Reporting Mechanism" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Reported on PC Live Site" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Primary specialty</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-04-01 13:11:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>NURSE PRACTITIONER</Operand>
+              <StartDate>2023-04-01 13:11:55</StartDate>
+              <EndDate>2023-04-01 13:11:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Primary specialty] = "NURSE PRACTITIONER"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Professional Enrollment ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Middle Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Suffix" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Credential" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Medical school name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Graduation year" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Primary specialty" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="All secondary specialties" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Organization legal name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Group Practice PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Number of Group Practice members" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 1 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 2 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Marker of address line 2 suppression" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 5" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 5" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Professional accepts Medicare Assignment" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Reported Quality Measures" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Used electronic health records" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Committed to heart health through the Million HeartsÂ® initiative." size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Professional Enrollment ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Middle Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Suffix" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Credential" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Medical school name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Graduation year" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Primary specialty" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Secondary specialty 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="All secondary specialties" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Organization legal name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Group Practice PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Number of Group Practice members" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 1 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 2 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Marker of address line 2 suppression" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 1" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 2" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 3" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 4" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation CCN 5" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Hospital affiliation LBN 5" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Professional accepts Medicare Assignment" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Reported Quality Measures" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Used electronic health records" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Committed to heart health through the Million HeartsÂ® initiative." size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NPI" selected="True" />
+            <SelectField field="PAC ID" selected="True" />
+            <SelectField field="Last Name" selected="True" />
+            <SelectField field="First Name" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="Medical school name" selected="True" />
+            <SelectField field="Primary specialty" selected="True" />
+            <SelectField field="Line 1 Street Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Phone Number" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Medical school name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Primary specialty" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 1 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NPI" selected="True" />
+            <SelectField field="PAC ID" selected="True" />
+            <SelectField field="Last Name" selected="True" />
+            <SelectField field="First Name" selected="True" />
+            <SelectField field="Measure Title" selected="True" />
+            <SelectField field="Measure Performance Rate" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Title" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Performance Rate" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="NPI" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="NPI" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Medical school name" selected="False" input="Left_" />
+                <SelectField field="Left_Primary specialty" selected="False" input="Left_" />
+                <SelectField field="Left_Line 1 Street Address" selected="True" rename="address" input="Left_" />
+                <SelectField field="Right_NPI" selected="False" rename="Right_NPI" input="Right_" />
+                <SelectField field="Right_PAC ID" selected="False" rename="Right_PAC ID" input="Right_" />
+                <SelectField field="Right_Last Name" selected="False" rename="Right_Last Name" input="Right_" />
+                <SelectField field="Right_First Name" selected="False" rename="Right_First Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Medical school name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Primary specialty" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Line 1 Street Address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Measure Title" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Performance Rate" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Title" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Performance Rate" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="546" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="NPI" action="GroupBy" rename="NPI" />
+            <SummarizeField field="Measure Performance Rate" action="Avg" rename="Overall Rating" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="NPI" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="NPI" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Measure Title" selected="False" input="Left_" />
+                <SelectField field="Left_Measure Performance Rate" selected="False" input="Left_" />
+                <SelectField field="Right_NPI" selected="False" rename="Right_NPI" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Measure Title" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="V_String" />
+            <Field name="Measure Performance Rate" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_2015_Individual_EP_Public_Reporting___Performance_Scores.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="786" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="NPI" />
+            <Field field="PAC ID" />
+            <Field field="Last Name" />
+            <Field field="First Name" />
+            <Field field="Gender" />
+            <Field field="address" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="Zip Code" />
+            <Field field="Phone Number" />
+            <Field field="Overall Rating" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="798" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PatientData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="1110" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="longitude" fieldY="latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="702" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\zipcode.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>zipcode.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ZIP,LAT,LNG" size="255" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\zipcode.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="786" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>ZIP,LAT,LNG</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="," />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ZIP,LAT,LNG" size="255" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\zipcode.xlsx|||`Sheet1$`" type="V_String" />
+            <Field description="TextToColumns: Parsed from ZIP,LAT,LNG" name="1" size="255" source="TextToColumns: Parsed from ZIP,LAT,LNG" type="V_String" />
+            <Field description="TextToColumns: Parsed from ZIP,LAT,LNG" name="2" size="255" source="TextToColumns: Parsed from ZIP,LAT,LNG" type="V_String" />
+            <Field description="TextToColumns: Parsed from ZIP,LAT,LNG" name="3" size="255" source="TextToColumns: Parsed from ZIP,LAT,LNG" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="894" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Zip Code</Field>
+          <RegExExpression value="\d{4}(\d{5})" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Zip Code</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="ZipCode5" type="V_String" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>NPI_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+            <Field description="RegEx: Parsed from Zip Code" name="ZipCode5" size="254" source="RegEx: Parsed from Zip Code" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1122" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ZipCode5" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="zipcode" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_NPI" selected="True" input="Left_" />
+                <SelectField field="Left_PAC ID" selected="True" input="Left_" />
+                <SelectField field="Left_Last Name" selected="True" input="Left_" />
+                <SelectField field="Left_First Name" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_address" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Phone Number" selected="True" input="Left_" />
+                <SelectField field="Left_Overall Rating" selected="True" input="Left_" />
+                <SelectField field="Left_ZipCode5" selected="True" input="Left_" />
+                <SelectField field="Right_latitude" selected="True" input="Right_" />
+                <SelectField field="Right_longitude" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+            <Field description="RegEx: Parsed from Zip Code" name="ZipCode5" size="254" source="RegEx: Parsed from Zip Code" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+            <Field description="RegEx: Parsed from Zip Code" name="ZipCode5" size="254" source="RegEx: Parsed from Zip Code" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="zipcode" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="882" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ZIP,LAT,LNG" selected="False" />
+            <SelectField field="1" selected="True" rename="zipcode" />
+            <SelectField field="2" selected="True" rename="latitude" />
+            <SelectField field="3" selected="True" rename="longitude" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from ZIP,LAT,LNG" name="zipcode" size="255" source="TextToColumns: Parsed from ZIP,LAT,LNG" type="V_String" />
+            <Field description="TextToColumns: Parsed from ZIP,LAT,LNG" name="latitude" size="255" source="TextToColumns: Parsed from ZIP,LAT,LNG" type="V_String" />
+            <Field description="TextToColumns: Parsed from ZIP,LAT,LNG" name="longitude" size="255" source="TextToColumns: Parsed from ZIP,LAT,LNG" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="1218" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="longitude" fieldY="latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+            <Field description="RegEx: Parsed from Zip Code" name="ZipCode5" size="254" source="RegEx: Parsed from Zip Code" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1290" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Centroid" selected="True" rename="nurse centroid" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+            <Field description="RegEx: Parsed from Zip Code" name="ZipCode5" size="254" source="RegEx: Parsed from Zip Code" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="nurse centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1278" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Centroid" selected="True" rename="patient centroid" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="patient centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.FindNearest.FindNearest">
+        <Position x="1446" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Target SpatialObj="patient centroid" />
+          <Universe SpatialObj="nurse centroid" />
+          <HowMany value="4" />
+          <MaxDistance value="3" />
+          <MaxDistanceUnits>Miles</MaxDistanceUnits>
+          <Ignore0 value="False" />
+          <DriveTimeDataSet>Latest</DriveTimeDataSet>
+          <SelectConfiguration>
+            <Configuration outputConnection="Matched">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Universe_latitude" selected="True" rename="Universe_latitude" input="Universe_" />
+                <SelectField field="Universe_longitude" selected="True" rename="Universe_longitude" input="Universe_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Matched">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="patient centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+            <Field name="NPI" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="PAC ID" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Last Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+            <Field description="RegEx: Parsed from Zip Code" name="ZipCode5" size="254" source="RegEx: Parsed from Zip Code" type="V_String" />
+            <Field name="Universe_latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="Universe_longitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="nurse centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+            <Field name="FindNearestRank" source="FindNearest: Rank" type="Int16" />
+            <Field name="DistanceMiles" source="FindNearest: Distance Units=Miles" type="Double" />
+            <Field name="Direction" size="2" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Unmatched">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="patient centroid" size="2147483647" source="CreatePoints: x=longitude y=latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxFindNearest" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1026" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="702" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uszips.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="zip" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="lng" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="state_id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="state_name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="zcta" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="parent_zcta" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="population" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="density" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="county_fips" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="county_name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="county_weights" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="county_names_all" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="county_fips_all" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="imprecise" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="military" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="timezone" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="zip" selected="True" />
+            <SelectField field="lat" selected="True" />
+            <SelectField field="lng" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="zip" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+            <Field name="lng" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\uszips.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="954" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByPos</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="zipcode" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1050" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="zipcode" />
+            <Field field="latitude" />
+            <Field field="longitude" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="zipcode" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="zipcode" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="latitude" size="255" source="(Multiple Sources)" type="V_String" />
+            <Field name="longitude" size="255" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1554" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="name" selected="True" rename="patient name" />
+            <SelectField field="latitude" selected="False" />
+            <SelectField field="longitude" selected="False" />
+            <SelectField field="patient centroid" selected="False" />
+            <SelectField field="NPI" selected="False" />
+            <SelectField field="PAC ID" selected="False" />
+            <SelectField field="Last Name" selected="True" rename="nurse last name" />
+            <SelectField field="First Name" selected="True" rename="nurse first name" />
+            <SelectField field="address" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="State" selected="False" />
+            <SelectField field="ZipCode5" selected="False" />
+            <SelectField field="Universe_latitude" selected="False" />
+            <SelectField field="Universe_longitude" selected="False" />
+            <SelectField field="nurse centroid" selected="False" />
+            <SelectField field="FindNearestRank" selected="False" />
+            <SelectField field="DistanceMiles" selected="False" />
+            <SelectField field="Direction" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="patient name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="nurse last name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="nurse first name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1650" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="patient name" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>patient name - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="patient name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="nurse last name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="nurse first name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Phone Number" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Physician_Compare_National_Downloadable_File.csv" type="V_String" />
+            <Field name="Overall Rating" source="Summarize: Avg - Measure Performance Rate" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="906" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="name" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>name - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\PatientData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="1602" y="6" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Numeric Up Down (30)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1518" y="42" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="1362" y="6" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Numeric Up Down (36)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1434" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="1734" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="patient name" selected="True" Alignment="Left" />
+            <Field name="nurse last name" selected="True" Alignment="Left" />
+            <Field name="nurse first name" selected="True" Alignment="Left" />
+            <Field name="Gender" selected="True" Alignment="Left" />
+            <Field name="Phone Number" selected="True" Alignment="Left" />
+            <Field name="Overall Rating" selected="True" Alignment="Right" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="1818" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType />
+          <OutputFile>C:\Users\sarik\OneDrive\Documents\Axxess Hackathon\Result.htm</OutputFile>
+          <BatchMode value="False" />
+          <DataField>Table</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Unique" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Targets" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Action" />
+      <Destination ToolID="20" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="20" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Matched" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Unique" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Question" />
+      <Destination ToolID="31" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="36" Connection="Question" />
+      <Destination ToolID="37" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Numeric Up Down (30)</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Numeric Up Down (36)</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Care Finder</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="829a0cdb-b646-4424-bcf3-264af59466a6" />
+      <Telemetry>
+        <PreviousWorkflowId value="134ceeb8-7ac1-4cc3-8c9c-30f91375d77e" />
+        <OriginWorkflowId value="96608e03-50b0-4894-b06a-c13b7442c9f0" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="31" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>4</ReplaceText>
+              <Destination>20/HowMany/@value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="37" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>3</ReplaceText>
+              <Destination>20/MaxDistance/@value</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (29)</Name>
+          <ToolId value="29" />
+          <Questions>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>How many nurses?</Description>
+              <Name>Numeric Up Down (30)</Name>
+              <ToolId value="30" />
+              <Minimum value="1" />
+              <Maximum value="10" />
+              <Increment value="1" />
+              <Default value="1" />
+              <Decimals value="0" />
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Numeric Up Down (36)</Description>
+              <Name>Numeric Up Down (36)</Name>
+              <ToolId value="36" />
+              <Minimum value="0" />
+              <Maximum value="10" />
+              <Increment value="1" />
+              <Default value="0" />
+              <Decimals value="0" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="39" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
